@@ -1,14 +1,12 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+ [
+  { "email":"avina@gamil.com"
+   "id_praticien":1,
+   "nom":"AVINA",
+   "numero_telephone":699327396,
+   "prenom":"Albert",
+   "specialité":"cardiologue",
+   "tarif":"6000F"
+  },
+  {"email":"lengueaqui@gmail.com","id_praticien":2,"nom":"Lengue","numero_telephone":699515420,"prenom":"Aquilas","specialité":"dentiste","tarif":"4000F"},{"email":"michelle@gmail.com","id_praticien":3,"nom":"Kamdem","numero_telephone":698646034,"prenom":"Juanita","specialité":"ophtamologue","tarif":"5000F"},{"email":"bikoiemma@gmail.com","id_praticien":4,"nom":"Bikoi","numero_telephone":657456784,"prenom":"emmanuel","specialité":"Radiologue","tarif":"3000F"},{"email":"yanisemma@gmail.com","id_praticien":5,"nom":"Ngoenkoh","numero_telephone":654342414,"prenom":"Yanis","specialité":"pediatre","tarif":"2500F"}]
 }
