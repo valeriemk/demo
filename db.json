@@ -1,14 +1,158 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "patients": [
+    {
+      "adresse":"douala",
+      "email":"valeriembock08@gmail.com",
+      "id_patient":1,
+      "nom":"MBOCK",
+      "numero_telephone":655080365
+    },
+    {
+      "adresse":"yaounde",
+      "email":"emmanguekam@gmail.com",
+      "id_patient":2,"nom":"NGUEKAM",
+      "numero_telephone":655651712
+    },
+    {
+      "adresse":"nord",
+      "email":"njoya@gmail.com",
+      "id_patient":3,"nom":"NJOYA",
+      "numero_telephone":694397898
+    },
+    {
+      "adresse":"bafoussam",
+      "email":"dallas@gmail.com",
+      "id_patient":4,
+      "nom":"SEDJIO",
+      "numero_telephone":655645852
+    },
+    {
+      "adresse":"bertoua",
+      "email":"alex2@gmail.com",
+      "id_patient":5,
+      "nom":"LISSOM",
+      "numero_telephone":656145812
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  "praticien": [
+    {
+        "email":"avina@gamil.com",
+        "id_praticien":1,
+        "nom":"AVINA",
+        "numero_telephone":699327396,
+        "prenom":"Albert",
+        "specialité":"cardiologue",
+        "tarif":"6000F"
+        },
+      {
+        "email":"lengueaqui@gmail.com",
+        "id_praticien":2,
+        "nom":"Lengue",
+        "numero_telephone":699515420,
+        "prenom":"Aquilas",
+        "specialité":"dentiste",
+        "tarif":"4000F"
+        },
+      {
+          "email":"michelle@gmail.com",
+          "id_praticien":3,
+          "nom":"Kamdem",
+          "numero_telephone":698646034,
+          "prenom":"Juanita",
+          "specialité":"ophtamologue",
+          "tarif":"5000F"
+          },
+        {
+          "email":"bikoiemma@gmail.com",
+          "id_praticien":4,
+          "nom":"Bikoi",
+          "numero_telephone":657456784,
+          "prenom":"emmanuel",
+          "specialité":"Radiologue",
+          "tarif":"3000F"
+          },
+        {"email":"yanisemma@gmail.com",
+           "id_praticien":5,
+           "nom":"Ngoenkoh",
+           "numero_telephone":654342414,
+           "prenom":"Yanis",
+           "specialité":"pediatre",
+           "tarif":"2500F"
+          }
+        ],
+        "consultations":  [
+          {
+            "diagnotics":"mal de coeur",
+            "id_consultation":1,
+            "id_patient":1,"id_praticien":1,
+            "symptomes":"de battement excessif du coeur"
+            },
+            {
+              "diagnotics":"carie dentaire",
+              "id_consultation":2,
+              "id_patient":2,
+              "id_praticien":2,
+              "symptomes":"Mal de dent, troue dans la dent"
+            },
+          {
+            "diagnotics":"cataracte",
+            "id_consultation":3,
+            "id_patient":3,
+            "id_praticien":3,
+            "symptomes":"glucome"
+            },
+            {
+              "diagnotics":"fracture au bras",
+              "id_consultation":4,
+              "id_patient":4,
+              "id_praticien":4,
+              "symptomes":null
+              },
+            {
+              "diagnotics":"rougeole",
+              "id_consultation":5,
+              "id_patient":5,
+              "id_praticien":5,
+              "symptomes":"boutons, fievre"
+              }
+            ],
+    "rendezvous":  [
+              {
+                "date":"01/01/2021",
+                "heure":"12h00",
+                "id_patient":1,
+                "id_praticien":1,
+                "id_rdv":1
+              },
+              {
+                "date":"20/05/2020",
+                "heure":"7h00",
+                "id_patient":2,
+                "id_praticien":2,
+                "id_rdv":2
+                },
+              {
+                 "date":"5/10/2020",
+                "heure":"10H30",
+                "id_patient":3,
+                "id_praticien":3,
+                "id_rdv":3
+                },
+              {
+                "date":"25/12/2020",
+                "heure":"15H45",
+                "id_patient":4,
+                "id_praticien":4,
+                "id_rdv":4
+                },
+              {
+                "date":"14/02/2021",
+                "heure":"13H05",
+                "id_patient":5,
+                "id_praticien":5,
+                "id_rdv":5
+                }
+                ]
+
 }
